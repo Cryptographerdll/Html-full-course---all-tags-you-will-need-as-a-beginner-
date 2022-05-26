@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="POST" enctype="application/x-www-form-urlencoded">
+
+        <!-- FullName -->
+        <b>FullName</b>
+        <input type="text" name="FullName" value="">
+
+        <!-- Email -->
+        <b>Email</b>
+        <input type="email" name="email" value="">
+
+        <!-- Phone -->
+
+        <b>Phone</b>
+        <input type="number" name="number" value="">
+
+        <div>
+            <b>Job</b>
+            <input type="checkbox" name=" " value=" ">
+            <span>frontend engineer</span>
+
+            <input type="checkbox" name=" " value=" ">
+            <span>Backend developer</span>
+        </div>
+
+        <button type="submit ">Send</button>
+        <button type="reset">Reset</button>
+
+        <input type="file" accept="image/png, image/jpeg">
+        <input type="email" pattern="[^ @]*@[^ @]*">
+        <input type="range">
+        <input type="search">
+        <input type="phone" pattern="[0-9]{3}-[0-9]-{3}-[0-9]{4}">
+        <input type="url" pattern="https://.*" size="32">
+        <input type="week" min="2021-W6" max="2022-W8">
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Select</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-security-policy" content="script-src 'self'; object-src 'none'">
+    <meta http-equiv="cache-control" content="no-cache" />
+</head>
+
+<body>
+    <form method="POST">
+
+        <!-- Languages -->
+        <select name="languages" size="8" multiple>
+
+            <!-- frontend -->
+            <optgroup label="Frontend">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript" selected>Javascript</option>
+            </optgroup>
+
+            <!-- backend -->
+            <optgroup label="Backend">
+                <option value="php">Php</option>
+                <option value="python">Python</option>
+                <option value="ruby" selected>Ruby</option>
+            </optgroup>
+
+        </select>
+
+        <!-- submit -->
+        <input type="submit" value="send query" />
+    </form>
+</body>
+
+</html>

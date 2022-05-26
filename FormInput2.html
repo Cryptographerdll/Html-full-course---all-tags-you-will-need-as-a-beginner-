@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Input forms</title>
+    <meta charset='UTF-8'>
+    <!-- avoid cross-site scripting attack -->
+    <meta http-equiv=" content-security-policy " content=" script-src 'self'; object-src 'none' " />
+</head>
+
+<body>
+    <form method="POST">
+
+        <!-- text : FullName-->
+        <input type="text" id="fullName" name="fullName" value="" />
+
+        <!-- email : email -->
+        <input type="email" />
+
+        <!-- password : pass -->
+        <input type="password" id="pass" name="pass" />
+
+        <!-- checkbox : newsletter-->
+        what's you fav pet ?
+        <input type="checkbox" id="cats" name="favoritePet" value="cats" />
+        <input type="checkbox" id="dogs" name="favoritePet" value="dogs" />
+        <input type="checkbox" id="birds" name="favoritePet" value="birds" />
+
+        <!-- checkbox : newsletter-->
+        Subscribe to the newSletter ?
+        <input type="checkbox" name="newsletter" id="newsletter" value="subscribed" />
+
+        <!-- radio : color -->
+        what's your favorite color ?
+        <input type="radio" name="color" id="red" value="red">
+        <input type="radio" name="color" id="black" value="black">
+        <input type="radio" name="color" id="green" value="green">
+
+        <!--! -->
+        <!-- date : birthdate  year - month - day -->
+        <input type="date" id="birthdate" name="birthdate" value="2001-05-01">
+
+        <!-- datetime-Local : birthdate-time -->
+        <input type="datetime-local" name="birthdateTime" id="birthdateTime" />
+
+        <!-- month : birthday-month -->
+        <input type="month" name="birthdateTime" id="birthdateMonth" />
+
+        <!-- week : bootcamp -->
+        <input type="week" name="bootcamp" id="bootcamp" value="2020-W02" />
+
+        <!-- time : meeting -->
+        <input type="time" name="meeting" id="meeting" value="11:00">
+
+        <!--! -->
+        <!-- color -->
+        <input type="color" name="" value="#E6B9B0">
+
+        <!-- file -->
+        <input type="file" name="resume" />
+
+        <!-- hidden -->
+        <input type="hidden" name="resumeId" value="45ERD">
+
+        <!-- image -->
+        <input type="image" src="cc.png">
+
+        <!--! -->
+        <!-- number -->
+        <input type="number" name="number" />
+
+        <!-- range -->
+        <input type="range" name="range" min="5" max="10">
+
+        <!-- search -->
+        <input type="search" name="result search" placeholder="search..." spellcheck="true" />
+
+        <!-- tel -->
+        <input type="tel" name="" value="">
+
+        <!-- url -->
+        <input type="url" name="url" />
+
+        <!--! -->
+        <!-- submit -->
+        <input type="submit" value="Send Query" />
+
+        <!-- button -->
+        <input type="button" name="button" value="">
+
+        <!-- reset -->
+        <input type="reset" name="Reset" value="">
+    </form>
+</body>
+
+</html>

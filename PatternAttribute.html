@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pattern</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="POST">
+        <input type="text" name="full Name" placeholder="full Name" pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="must contain space" required>
+
+        <input type="text" name="username" placeholder="username" pattern="^[a-z0-9_-]{3,}$" title="try again a valide name" required>
+
+        <input type="email" name="Email" placeholder="email" pattern="\w+\.+\w+@\w+\.+info" title="hay.hay@example.info" required>
+
+        <input type="password" name="Password" placeholder="password" pattern="(?=.*[0-9])(?=.*[A-Z]).{8,}$" title="A-Z, number, lower, upper, speciale character" required>
+
+        <!-- submit data -->
+        <input type="submit" value="Register" />
+    </form>
+</body>
+
+</html>

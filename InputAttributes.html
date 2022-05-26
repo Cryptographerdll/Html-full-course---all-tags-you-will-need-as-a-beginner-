@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Input Attributes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="POST">
+
+        <!--! -->
+        <!-- name : used to identify the input in query strings -->
+        <input type="text" name="fullName" />
+
+        <!-- id : cannot duplicate -->
+        <input type="text" id="fullName" />
+
+        <!--! value : visible inside the input box as a default input -->
+        <input type="text" value=" " />
+
+        <!-- color : #hex -->
+        <input type="color" value="#000">
+
+        <!-- date : year - month - day-->
+        <input type="date" value="2022-02-03">
+
+        <!-- date-local : year - month - day - time -->
+        <input type="date-local" value="2022-03-02T08:30">
+
+        <!-- month : year - month -->
+        <input type="month" value="2022-W08">
+
+        <!-- week : year - week -->
+        <input type="week" value="2022-18">
+
+        <!-- number : number -->
+        <input title="enter a number" type="number" value="25">
+
+        <!-- button : text -->
+        <input draggable="true" type="button" value="click">
+
+        <!-- reset : text -->
+        <input type="reset" value="reset">
+
+        <!--! type : identify the type of the input -->
+        <input type="text" />
+
+        <!--! required : means must enter a value in the input to validate the query sended -->
+        <input type="email" name="Email" required />
+
+        <!--! -->
+        <!-- minLength - maxLength -->
+        <input title="enter your store password " type="password" minlength="12" maxlength="22">
+
+        <!--! -->
+        <!-- size -->
+        <input type="text" name="card security code" size="3">
+
+        <!-- date -->
+        <input type="date" min="2020-06-17" max="2022-06-17">
+
+        <!-- datetime-local -->
+        <input type="datetime-local" min="2020-06-17T11:00" max="2022-06-17T11:00">
+
+        <!-- month -->
+        <input type="month" min="2020-08" max="2020-12">
+
+        <!-- week -->
+        <input type="week" min="2020-W02" max="2020-W18">
+
+        <!-- time -->
+        <input type="time" min="06:30" max="20:00">
+        <!-- number -->
+        <!-- range -->
+
+        <!--! -->
+        <!-- src -->
+
+        <!--! -->
+        <!-- pattern -->
+        <input type="text" src="PatternAttribute.html">
+
+        <!--! -->
+        <!-- accepte -->
+
+        <input type="submit" value="Send query">
+    </form>
+</body>
+
+</html>
